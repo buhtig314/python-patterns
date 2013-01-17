@@ -23,7 +23,7 @@ class ConcreteHandler3(Handler):
         if request > 20 and request <= 30:
             print("in handler3")
         else:
-            print('end of chain, no handler for {}'.format(request))
+            print('end of chain, no handler for {0}'.format(request))
  
 class Client:
     def __init__(self):
